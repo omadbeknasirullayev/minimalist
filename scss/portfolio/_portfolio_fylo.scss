@@ -1,0 +1,25 @@
+.fylo__container {
+    @extend .portfolio_container;
+    margin-top: 100px;
+}
+
+.fylo__info {
+    @extend .portfolio__sections-info;
+    margin-left: 95px;
+}
+
+.fylo__info-title {
+    @extend .portfolio__sections-title;
+}
+
+.fylo__info-text {
+    @extend .portfolio__sections-text;
+}
+
+.fylo__info-btn {
+    @extend .portfolio__sections-btn;
+}
+
+.fylo__info-btn:hover {
+    @extend .btn__hover;
+}

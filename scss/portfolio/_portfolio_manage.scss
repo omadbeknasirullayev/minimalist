@@ -1,0 +1,25 @@
+.manage__container {
+    @extend .portfolio_container;
+    margin-top: 100px;
+}
+
+.manage__info {
+    @extend .portfolio__sections-info;
+    margin-right: 105px;
+}
+
+.manage__info-title {
+    @extend .portfolio__sections-title;
+}
+
+.manage__info-text {
+    @extend .portfolio__sections-text;
+}
+
+.manage__info-btn {
+    @extend .portfolio__sections-btn;
+}
+
+.manage__info-btn:hover {
+    @extend .btn__hover;
+}

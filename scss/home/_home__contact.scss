@@ -1,0 +1,36 @@
+.home__contact-container {
+    margin: 96px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home__contact-info {
+    @extend .Ibarra;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+    color: #33323D;
+    max-width: 350px;
+    max-height: 84px;
+}
+
+.home__contact-btn {
+    @extend .Public_Seans;
+    max-width: 162px;
+    max-height: 45px;
+    display: block;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #33323D;
+    border: 1px solid #33323D 
+}
+
+.home__contact-btn:hover {
+    @extend .btn__hover;
+}

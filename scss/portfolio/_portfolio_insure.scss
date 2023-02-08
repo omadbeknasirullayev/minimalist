@@ -1,0 +1,25 @@
+.insure__container {
+    @extend .portfolio_container;
+    margin-top: 100px;
+}
+
+.insure__info {
+    @extend .portfolio__sections-info;
+    margin-right: 105px;
+}
+
+.insure__info-title {
+    @extend .portfolio__sections-title;
+}
+
+.insure__info-text {
+    @extend .portfolio__sections-text;
+}
+
+.insure__info-btn {
+    @extend .portfolio__sections-btn;
+}
+
+.insure__info-btn:hover {
+    @extend .btn__hover;
+}

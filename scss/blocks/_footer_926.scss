@@ -1,0 +1,53 @@
+@media only screen and (max-width: 926px) {
+
+    footer {
+        background: #33323D;
+        min-width: 768px;
+        align-items: center;
+    }
+    
+    .footer__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 80px;
+    }
+    
+    .footer__menu-logo {
+        @extend .nav__logo;
+        width: 61px;
+    }
+    
+    .footer__menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 418px;
+    }
+    
+    .footer__menu---list {
+        @extend .nav__list;
+        width: 70%;
+    }
+    
+    
+    .footer__menu---list--item-link {
+        @extend .Public_Seans;
+        text-decoration: none;
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        &:hover {
+            color: chartreuse;;
+        }
+    }
+    
+    .footer__social {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        width: 20%;
+    }
+}

@@ -1,0 +1,59 @@
+.home__about {
+    height: auto;
+    padding-top: 150px;
+}
+
+.home__about-container {
+    display: flex;
+    justify-content: space-between;
+    min-height: 600px;
+}
+
+.home__about--info {
+    border-bottom: 1px solid rgba(51, 50, 61, 0.171);
+    border-top: 1px solid rgba(51, 50, 61, 0.171) ;
+    max-width: 350px;
+    height: 600px;
+    margin-right: 105px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.home__about--info-title {
+    @extend .Ibarra;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+    color: #33323D;
+}
+
+.home__about--info-text {
+    @extend .Public_Seans;
+    font-size: 16px;
+    line-height: 30px;
+    color: #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+
+.home__about--info-btn {
+    @extend .Public_Seans;
+    max-width: 175px;
+    max-height: 45px;
+    display: block;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #33323D;
+    border: 1px solid #33323D 
+}
+
+.home__about--info-btn:hover {
+   @extend .btn__hover;
+}

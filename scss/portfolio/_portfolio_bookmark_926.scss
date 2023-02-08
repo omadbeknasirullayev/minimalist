@@ -1,0 +1,40 @@
+@media only screen and (max-width: 926px) {
+
+    .bookmark__container {
+        @extend .portfolio_container;
+        margin-top: 80px;
+        height: 416px;
+    }
+
+    .bookmark__img img {
+        max-width: 339px;
+        max-height: 314px;
+        margin-top: 51px;
+    }
+
+    .bookmark__info {
+        @extend .portfolio__sections-info;
+        margin-left: 0px;
+        width: 281px;
+        justify-content: start;
+    }
+
+    .bookmark__info-title {
+        @extend .portfolio__sections-title; 
+        margin-top: 32px;
+    }
+
+    .bookmark__info-text {
+        @extend .portfolio__sections-text;
+        font-size: 15px;
+        margin-top: 0px;
+    }
+
+    .bookmark__info-btn {
+        @extend .portfolio__sections-btn;
+    }
+
+    .bookmark__info-btn:hover {
+        @extend .btn__hover;
+    }
+}

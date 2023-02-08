@@ -1,0 +1,64 @@
+.Ibarra {
+    font-family: 'Ibarra_Real_Nova Bold';
+    font-style: normal;
+    font-weight: 700;
+}
+
+.Public_Seans {
+    font-family: 'Public_Sans Regular';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.portfolio_container {
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+}
+
+.portfolio__sections-info {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px solid rgba(51, 50, 61, 0.171);
+    border-top: 1px solid rgba(51, 50, 61, 0.171) ;
+}
+
+.portfolio__sections-title {
+    @extend .Ibarra;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+    color: #33323D;
+}
+
+.portfolio__sections-text {
+    @extend .Public_Seans;
+    font-size: 16px;
+    line-height: 30px;
+    color: #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.portfolio__sections-btn {
+    @extend .Public_Seans;
+    max-width: 175px;
+    max-height: 48px;
+    display: block;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #33323D;
+    border: 1px solid #33323D 
+}
+
+.btn__hover {
+    color: rgb(249, 253, 255);
+    background-color: rgb(81, 76, 70);
+}

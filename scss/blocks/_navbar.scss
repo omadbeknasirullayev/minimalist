@@ -1,0 +1,41 @@
+.nav {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 35px; 
+}
+
+.nav__logo {
+    width: 60px;
+    height: 32px;
+    cursor: pointer;
+}
+
+.nav__list {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.nav__list--item-link {
+    @extend .Public_Seans;
+    text-decoration: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #33323D;
+
+    &:hover {
+        color: chartreuse;
+    }
+
+    &:active {
+        color: rgba(95, 180, 162, 1);
+
+    }
+}
+
+.active {
+    color: rgba(95, 180, 162, 1);
+}

@@ -1,0 +1,42 @@
+@media only screen and (max-width: 926px) {
+
+    .insure__container {
+        @extend .portfolio_container;
+        margin-top: 100px;
+        height: 416px;
+    }
+
+    .insure__img img {
+        max-width: 339px;
+        max-height: 314px;
+        margin-top: 51px;
+    }
+
+    
+
+    .insure__info {
+        @extend .portfolio__sections-info;
+        margin-right: 0px;
+        width: 281px;
+        justify-content: start;
+    }
+
+    .insure__info-title {
+        @extend .portfolio__sections-title;
+        margin-top: 32px;
+    }
+
+    .insure__info-text {
+        @extend .portfolio__sections-text;
+        font-size: 15px;
+        margin-top: 0px;
+    }
+
+    .insure__info-btn {
+        @extend .portfolio__sections-btn;
+    }
+
+    .insure__info-btn:hover {
+        @extend .btn__hover;
+    }
+}

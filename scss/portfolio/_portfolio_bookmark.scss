@@ -1,0 +1,25 @@
+.bookmark__container {
+    @extend .portfolio_container;
+    margin-top: 100px;
+}
+
+.bookmark__info {
+    @extend .portfolio__sections-info;
+    margin-left: 95px;
+}
+
+.bookmark__info-title {
+    @extend .portfolio__sections-title;
+}
+
+.bookmark__info-text {
+    @extend .portfolio__sections-text;
+}
+
+.bookmark__info-btn {
+    @extend .portfolio__sections-btn;
+}
+
+.bookmark__info-btn:hover {
+    @extend .btn__hover;
+}
